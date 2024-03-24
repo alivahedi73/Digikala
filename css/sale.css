@@ -1,0 +1,821 @@
+@keyframes animate {
+  0% {
+    content: "تنها در دیجی‌کالا به همه نقاط ایران بفروشید";
+    opacity: 0.1;
+  }
+  2% {
+    content: "تنها در دیجی‌کالا به همه نقاط ایران بفروشید";
+    opacity: 0.2;
+  }
+  5% {
+    content: "تنها در دیجی‌کالا به همه نقاط ایران بفروشید";
+    opacity: 0.3;
+  }
+  7% {
+    content: "تنها در دیجی‌کالا به همه نقاط ایران بفروشید";
+    opacity: 0.4;
+  }
+  10% {
+    content: "تنها در دیجی‌کالا به همه نقاط ایران بفروشید";
+    opacity: 0.5;
+  }
+  20% {
+    content: "تنها در دیجی‌کالا به همه نقاط ایران بفروشید";
+    opacity: 1;
+  }
+  25% {
+    content: "تنها در دیجی‌کالا به همه نقاط ایران بفروشید";
+    opacity: 0.8;
+  }
+  28% {
+    content: "تنها در دیجی‌کالا به همه نقاط ایران بفروشید";
+    opacity: 0.7;
+  }
+  30% {
+    content: "تنها در دیجی‌کالا به همه نقاط ایران بفروشید";
+    opacity: 0.6;
+  }
+  35% {
+    content: "تنها در دیجی‌کالا به همه نقاط ایران بفروشید";
+    opacity: 0.5;
+  }
+  40% {
+    content: "تنها در دیجی‌کالا به همه نقاط ایران بفروشید";
+    opacity: 0.3;
+  }
+  60% {
+    content: "تنها در دیجی‌کالا به همه نقاط ایران بفروشید";
+    opacity: 0;
+  }
+  65% {
+    content: "تنها در دیجی‌کالا ۳۰ میلیون مشتری دارید";
+    opacity: 0.1;
+  }
+  68% {
+    content: "تنها در دیجی‌کالا ۳۰ میلیون مشتری دارید";
+    opacity: 0.2;
+  }
+  70% {
+    content: "تنها در دیجی‌کالا ۳۰ میلیون مشتری دارید";
+    opacity: 0.3;
+  }
+  75% {
+    content: "تنها در دیجی‌کالا ۳۰ میلیون مشتری دارید";
+    opacity: 0.5;
+  }
+  77% {
+    content: "تنها در دیجی‌کالا ۳۰ میلیون مشتری دارید";
+    opacity: 0.65;
+  }
+  78% {
+    content: "تنها در دیجی‌کالا ۳۰ میلیون مشتری دارید";
+    opacity: 0.8;
+  }
+  79% {
+    content: "تنها در دیجی‌کالا ۳۰ میلیون مشتری دارید";
+    opacity: 0.9;
+  }
+  80% {
+    content: "تنها در دیجی‌کالا ۳۰ میلیون مشتری دارید";
+    opacity: 1;
+  }
+  85% {
+    content: "تنها در دیجی‌کالا ۳۰ میلیون مشتری دارید";
+    opacity: 0.8;
+  }
+  90% {
+    content: "تنها در دیجی‌کالا ۳۰ میلیون مشتری دارید";
+    opacity: 0.5;
+  }
+  95% {
+    content: "تنها در دیجی‌کالا ۳۰ میلیون مشتری دارید";
+    opacity: 0.3;
+  }
+  96% {
+    content: "تنها در دیجی‌کالا ۳۰ میلیون مشتری دارید";
+    opacity: 0.2;
+  }
+  98% {
+    content: "تنها در دیجی‌کالا ۳۰ میلیون مشتری دارید";
+    opacity: 0.1;
+  }
+  100% {
+    content: "تنها در دیجی‌کالا ۳۰ میلیون مشتری دارید";
+    opacity: 0;
+  }
+}
+.saleproject {
+  .saletitle {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(178, 31, 60);
+    border-bottom: 1px solid rgb(102, 18, 35);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    right: 0px;
+    z-index: 99;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    .salet1 {
+      width: 135px;
+      height: 36px;
+      margin-right: 30px;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      & img {
+        width: 37px;
+        height: 34px;
+        object-fit: contain;
+      }
+      .salet1-2 {
+        width: 100px;
+        height: 30px;
+        margin-right: 5px;
+        & img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+    }
+    .salet2 {
+      width: 310px;
+      height: 50px;
+      margin-left: 50px;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      .salet2-a1 {
+        text-decoration: none;
+        color: white;
+        font-family: iran;
+        font-size: 12px;
+        font-weight: 700;
+        margin-left: 25px;
+      }
+      .salet2-a2 {
+        text-decoration: none;
+        width: 168px;
+        height: 40px;
+        display: block;
+        border: 1px solid white;
+        color: white;
+        font-family: iran;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 40px;
+        text-align: center;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+      }
+    }
+  }
+  .salearticle {
+    .salearticle1 {
+      width: 100%;
+      height: calc(100vh - 75px);
+      position: absolute;
+      top: 75px;
+      left: 0;
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.227),
+          rgba(255, 10, 10, 0.285)
+        ),
+        url("../images/su1.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      & p {
+        font-weight: 700;
+        font-family: iran;
+        font-size: 33px;
+        color: white;
+        position: absolute;
+        top: 270px;
+        right: 60px;
+      }
+      & span {
+        font-weight: 700;
+        font-family: iran;
+        font-size: 26px;
+        color: white;
+        position: absolute;
+        top: 340px;
+        right: 60px;
+      }
+      span::before {
+        content: "";
+        animation: animate infinite 5s;
+        -webkit-animation: animate infinite 5s;
+      }
+      & a {
+        position: absolute;
+        top: 400px;
+        right: 80px;
+        display: block;
+        width: 173px;
+        height: 45px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        text-decoration: none;
+        text-align: center;
+        line-height: 45px;
+        font-family: iran;
+        font-size: 12px;
+        font-weight: 700;
+        background-color: rgb(178, 31, 60);
+        color: white;
+      }
+    }
+    .salearticle2 {
+      position: absolute;
+      top: 577px;
+      width: 98%;
+      right: 17px;
+      height: 520px;
+      background-color: rgb(178, 31, 60);
+      border-radius: 15px;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      -ms-border-radius: 15px;
+      -o-border-radius: 15px;
+      overflow: hidden;
+      background-image: url("../images/impo1.png");
+      background-repeat: no-repeat;
+      background-position: center right;
+      .sale2taga {
+        width: 70px;
+        height: 64px;
+        background-color: whitesmoke;
+        & a {
+          width: 100%;
+          height: 100%;
+          display: block;
+          background-color: white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+      .sale2object {
+        width: 100%;
+        height: 450px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+        .sale2text {
+          & p {
+            padding-right: 50px;
+            font-size: 26px;
+            font-family: iran;
+            color: white;
+            font-weight: 700;
+            line-height: 50px;
+          }
+          & span {
+            padding-right: 50px;
+            font-size: 15px;
+            font-family: iran;
+            color: white;
+            line-height: 50px;
+          }
+        }
+        .sale2vedio {
+          width: 745px;
+          height: 415px;
+          border-radius: 10px;
+          -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
+          -ms-border-radius: 10px;
+          -o-border-radius: 10px;
+          overflow: hidden;
+        }
+      }
+    }
+    .salearticle3 {
+      width: 100%;
+      height: 400px;
+      position: absolute;
+      top: 1120px;
+      background-color: white;
+      .sale3n1 {
+        width: 89%;
+        height: 80px;
+        margin: 0 auto;
+        & p {
+          padding-top: 15px;
+          font-size: 19px;
+          font-family: iran;
+          font-weight: 700;
+          color: #3f4064;
+          line-height: 0px;
+        }
+        & span {
+          margin-top: 0;
+          font-size: 30px;
+          font-family: iran;
+          font-weight: bolder;
+          color: #a41935;
+        }
+      }
+      .sale3n2 {
+        width: 89%;
+        height: 320px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .sale3part1 {
+          width: 33%;
+          height: 100%;
+          .sale3part2 {
+            width: 100%;
+            height: 150px;
+            margin-bottom: 20px;
+            .sale3svg {
+              width: 100%;
+              height: 20px;
+              line-height: 15px;
+              margin-bottom: 0px;
+            }
+            .sale3text {
+              width: 100%;
+              height: 67.59;
+              padding-top: 12px;
+              padding-bottom: 12px;
+              & p {
+                font-size: 16px;
+                font-family: iran;
+                font-weight: 700;
+                line-height: 33px;
+                color: #0c0c0c;
+              }
+            }
+            .sale3line {
+              width: 70px;
+              height: 2px;
+              background-color: #e0e0e2;
+            }
+            & p {
+              padding-top: 15px;
+              font-size: 12px;
+              font-family: iran;
+              color: #3f4064;
+            }
+          }
+        }
+      }
+    }
+    .salearticle4 {
+      width: 100%;
+      height: 420px;
+      position: absolute;
+      top: 1550px;
+      .sale4 {
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        position: relative;
+        background-image: url("../images/svg23.svg");
+        background-repeat: no-repeat;
+        background-position: center right;
+        & span {
+          position: absolute;
+          top: 100px;
+          right: 50px;
+          font-size: 19px;
+          font-weight: 700;
+          font-family: iran;
+        }
+        .linesale4 {
+          width: 70px;
+          height: 2px;
+          position: absolute;
+          top: 150px;
+          right: 50px;
+          background-color: #a41935;
+        }
+        .sale4main {
+          width: 90%;
+          height: 150px;
+          position: absolute;
+          top: 185px;
+          right: 50px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .sale4mpart1 {
+            width: 220px;
+            height: 100%;
+            position: relative;
+            .sale4mpart2 {
+              width: 60px;
+              height: 60px;
+              border-radius: 50%;
+              -webkit-border-radius: 50%;
+              -moz-border-radius: 50%;
+              -ms-border-radius: 50%;
+              -o-border-radius: 50%;
+              background-color: #3f4064;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              position: absolute;
+              top: 20px;
+              left: calc(50% - 60px / 2);
+              border: 2px solid white;
+              background: linear-gradient(
+                  0deg,
+                  rgba(239, 64, 86, 0.15),
+                  rgba(239, 64, 86, 0.15)
+                ),
+                #fff;
+            }
+            .sale4mpart3 {
+              width: 100%;
+              height: 35px;
+              position: absolute;
+              top: 100px;
+              font-weight: 700;
+              font-family: iran;
+              font-size: 14px;
+              text-align: center;
+              color: #3f4064;
+              line-height: 35px;
+            }
+            .sale4mpart4 {
+              width: 20px;
+              height: 20px;
+              background-color: #a41935;
+              border-radius: 50%;
+              -webkit-border-radius: 50%;
+              -moz-border-radius: 50%;
+              -ms-border-radius: 50%;
+              -o-border-radius: 50%;
+              position: absolute;
+              top: 70px;
+              right: calc(50% - 10px);
+              border: 1px solid white;
+              font-size: 12px;
+              font-weight: 700;
+              font-family: iran;
+              color: white;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+          }
+        }
+      }
+    }
+    .salearticle5 {
+      width: 100%;
+      height: 300px;
+      position: absolute;
+      top: 2000px;
+      background-color: white;
+      .sale5main {
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        padding: 0 50px;
+        .sale5text {
+          width: 100%;
+          height: 50px;
+          line-height: 50px;
+          font-size: 19px;
+          font-family: iran;
+          font-weight: 700;
+        }
+        .sale5line {
+          width: 70px;
+          height: 2px;
+          background-color: #a41935;
+          margin-top: 10px;
+        }
+        .sale5impo {
+          width: 100%;
+          height: 180px;
+          margin-top: 5px;
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          .sale5rast {
+            width: 476px;
+            height: 170px;
+            position: relative;
+            & span {
+              position: absolute;
+              top: 30px;
+              right: 35%;
+            }
+            & p {
+              position: absolute;
+              top: 35px;
+              right: 45%;
+              font-size: 17px;
+              font-weight: 700;
+              font-family: iran;
+            }
+            .sale5bottom {
+              width: 100%;
+              height: 50px;
+              position: absolute;
+              top: 100px;
+              text-align: center;
+              line-height: 30px;
+              font-family: iran;
+              font-size: 15px;
+              color: #3f4064;
+            }
+          }
+        }
+      }
+    }
+    .salearticle6 {
+      width: 100%;
+      height: 515px;
+      background-color: white;
+      position: absolute;
+      top: 2300px;
+      .sale6main {
+        width: 90%;
+        height: 100%;
+        padding: 0 50px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .sale6rast {
+          width: 475px;
+          height: 100%;
+          & span {
+            display: block;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 19px;
+            font-weight: 700;
+            font-family: iran;
+            color: #3f4064;
+          }
+          .sale6line {
+            width: 70px;
+            height: 2px;
+            background-color: #a41935;
+            margin-bottom: 30px;
+          }
+          & p {
+            font-family: iran;
+            font-size: 15px;
+            color: #3f4064;
+            text-align: justify;
+            line-height: 32.25px;
+          }
+        }
+        .sale6chap {
+          width: 625px;
+          height: 100%;
+          align-items: center;
+          .sale6nu1 {
+            width: 100%;
+            height: 24%;
+            margin: 4px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .sale6nu2 {
+              width: 33%;
+              height: 100%;
+              padding-right: 20px;
+              & span {
+                & svg {
+                  margin-top: 10px;
+                }
+              }
+              .sale6A {
+                margin-top: 5px;
+                font-size: 14px;
+                font-weight: 700;
+                font-family: iran;
+                color: #3f4064;
+              }
+              .sale6B {
+                margin-top: 5px;
+                font-size: 12px;
+                font-family: iran;
+                color: #81858b;
+              }
+            }
+          }
+        }
+      }
+    }
+    .salearticle7 {
+      width: 100%;
+      height: 402px;
+      background-color: #a41935;
+      position: absolute;
+      top: 2850px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .sale7text {
+        width: 463px;
+        height: 100%;
+        margin-right: 50px;
+        .sale7one {
+          font-size: 16px;
+          font-weight: 700;
+          font-family: iran;
+          color: white;
+          margin: 40px 0;
+        }
+        .sale7two {
+          line-height: 32.25px;
+          font-size: 15px;
+          font-family: iran;
+          color: white;
+          text-align: justify;
+          & span {
+            display: inline-block;
+            & svg {
+              display: block;
+              padding: 0.1px;
+              transform: scale(1.5);
+              background-color: white;
+              border-radius: 50%;
+              -webkit-border-radius: 50%;
+              -moz-border-radius: 50%;
+              -ms-border-radius: 50%;
+              -o-border-radius: 50%;
+              -webkit-transform: scale(1.5);
+              -moz-transform: scale(1.5);
+              -ms-transform: scale(1.5);
+              -o-transform: scale(1.5);
+            }
+          }
+        }
+        .sale7map {
+          width: 750px;
+          height: 99%;
+          & img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+    .salearticle8 {
+      width: 100%;
+      height: 540px;
+      position: absolute;
+      background-color: white;
+      top: 3300px;
+      .sale8main {
+        width: 90%;
+        height: 540px;
+        margin: 0 auto;
+        .sale8title {
+          font-size: 19px;
+          font-weight: 700;
+          font-family: iran;
+          color: #3f4064;
+          padding-top: 30px;
+          padding-bottom: 20px;
+        }
+        .sale8line {
+          width: 70px;
+          height: 2px;
+          background-color: #a41935;
+          margin-bottom: 20px;
+        }
+        .sale8part1 {
+          width: 100%;
+          height: 400px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .sale8vedio {
+            width: 649px;
+            height: 390px;
+            & video {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .sale8swiper {
+            width: 477px;
+            height: 300px;
+            .swiper {
+              width: 400px;
+              height: 300px;
+            }
+            .swiper-slide {
+              background-position: center;
+              background-size: cover;
+              padding: 20px;
+              border: 1px solid rgb(224, 224, 224);
+              background-color: rgb(233, 233, 233);
+              .swiper1 {
+                font-size: 15px;
+                font-family: iran;
+                color: #81858b;
+                line-height: 32.25px;
+              }
+              .swiper2 {
+                font-size: 12px;
+                font-family: iran;
+                line-height: 26px;
+                color: #81858b;
+                margin-top: 10px;
+              }
+              .swiper3 {
+                margin-top: 20px;
+                color: #3f4064;
+                font-size: 12px;
+                font-family: iran;
+                text-align: justify;
+                line-height: 23px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .salearticle9 {
+      width: 100%;
+      height: 750px;
+      position: absolute;
+      top: 3850px;
+      .sale9main {
+        width: 90%;
+        height: 100%;
+        background-color: hsla(240, 3%, 94%, 0.3);
+        border: 1px solid #e0e0e2;
+        border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        -o-border-radius: 16px;
+        margin: 0 auto;
+        .sale9title {
+          font-size: 19px;
+          font-family: iran;
+          font-weight: 700;
+          color: #3f4064;
+          padding-top: 30px;
+          padding-right: 40px;
+        }
+        .sale9line {
+          width: 70px;
+          height: 2px;
+          background-color: #a41935;
+          margin-top: 15px;
+          margin-right: 40px;
+        }
+        .sale9q {
+          width: 90%;
+          height: 65px;
+          margin: 0 auto;
+          border-bottom: 1px solid #81858b;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          & a {
+            display: block;
+            text-decoration: none;
+            width: 90%;
+            height: 33px;
+            color: black;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 33px;
+            font-family: iran;
+          }
+        }
+      }
+    }
+  }
+  .fotmainposition {
+    width: 100%;
+    height: 1225px;
+    position: absolute;
+    top: 4680px;
+    border-top: 1px solid #81858b;
+  }
+}
